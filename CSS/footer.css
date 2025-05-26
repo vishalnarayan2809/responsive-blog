@@ -1,0 +1,27 @@
+footer {
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-md);
+}
+
+footer h1,
+footer h2,
+footer p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
+    color: var(--color-white);
+}
+
+footer h1,
+footer h2 {
+    margin-top: var(--spacing-lg);
+    font-size: var(--font-size-base);
+}
+
+footer p {
+    font-size: var(--font-size-small);
+}

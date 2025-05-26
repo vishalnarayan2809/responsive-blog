@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    margin: 0;
+    padding: 0;
+}
+
+#self{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem;
+    box-sizing: border-box;
+}
+
+#self img{
+    width: 20rem;
+    height: 12rem;
+    margin-right: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#self h1{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#main-content {
+    padding: 0 9rem;
+    box-sizing: border-box;
+}
+
+
+#recent-posts h3 {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2rem;
+
+}
+
+#main-content h2 , p{
+    margin: 2rem 0;
+}
+
+#blog-grid {
+    box-sizing: border-box;
+    grid-template: repeat(1,1fr)/repeat(3,1fr);
+    
+}
+
+    #recent-posts-heading {
+    text-align: center;
+
+    }   
+
+
+
+@media(max-width: 480px){
+
+    #blog-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+
+    #self{
+    margin: 1rem 1rem;
+    padding: 1rem;
+    min-height: auto;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    }
+    
+    #self h1{
+    font-size: 1.5rem;
+    margin: 0;
+    }
+    #self img{
+    width: 10rem;
+    margin-bottom: 2.5rem;
+    }   
+
+    
+
+
+#main-content {
+        margin: 1rem 1rem;
+        padding: 1rem;
+        min-height: auto;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+
+}

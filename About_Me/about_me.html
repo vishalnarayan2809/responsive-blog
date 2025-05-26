@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - My Learning Journal</title>
+    <meta name="description" content="Learn about Vishal and his journey in Flutter, Firebase, and AI development.">
+    <link rel="stylesheet" href="../CSS/variables.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/blog.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <div id="logo-section">
+            <img src="../images/logo.png" id="logo" alt="Learning Journal Logo">
+            <h1>My Learning Journal</h1>
+        </div>
+        <nav>
+            <a href="../Homepage/index.html">HOME</a>
+            <a href="about_me.html">ABOUT ME</a>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <section id="self" aria-labelledby="about-heading">
+            <img src="../images/profile.jpg" alt="Profile photo of Vishal" id="profile-pic">
+            <div id="self-text">
+                <h1 id="about-heading">Hi there! My name is Vishal and welcome to my learning journal.</h1>
+                <p>I’m currently pursuing Computer Science and Engineering, with a passion for Flutter, Firebase, and building full-stack mobile and web applications. I'm constantly experimenting with new technologies, especially around AI and automation.</p>
+                <p>After learning the fundamentals, I started building real-world apps — from note-taking tools to smart assistants and 5G test utilities. This journal is a record of my progress, reflections, and projects.</p>
+            </div>
+        </section>
+
+        <section aria-labelledby="commitment-heading">
+            <h2 id="commitment-heading">How I stay committed to learning</h2>
+            <p>I believe in learning by building. Every time I learn a new concept in Flutter, Firebase, or AI, I implement it in small projects. I also challenge myself with complex ideas like integrating ML models into mobile apps or syncing IDEs across PCs.</p>
+            <p>This journal helps me stay focused, reflect on my growth, and hopefully inspire others on a similar journey.</p>
+        </section>
+
+        <section aria-labelledby="getting-started-heading">
+            <h2 id="getting-started-heading">How I got started</h2>
+            <p>I began by creating simple apps using Dart and Flutter. Over time, I integrated Firebase for real-time backend support, explored APIs, and even trained and deployed TFLite models for real-time predictions. Documenting each step helped reinforce my learning.</p>
+            <p>Now, I’m exploring automation, building AI-powered tools, and even experimenting with content generation using platforms like Sora and Stable Video Diffusion.</p>
+        </section>
+
+        <aside id="recent-posts" aria-labelledby="recent-posts-heading">
+            <h2 id="recent-posts-heading">Recent Posts</h2>
+            <div class="blog-grid" role="list">
+                <div id="blog-1" class="blog-post" role="listitem">
+                    <img src="../images/blog_flutter.png" alt="Flutter project screenshot">
+                    <p>APRIL 4, 2025</p>
+                    <h2>Building a Smart Reminder Agent with AI</h2>
+                    <p>I built a personalized reminder app using Flutter, Firebase, Langchain, and TTS/STT APIs. It adapts to user behavior using sentiment analysis.</p>
+                    <a href="/Blog/reminder-ai.html" class="blog-link">Click here to read more</a>
+                </div>
+
+                <div id="blog-2" class="blog-post" role="listitem">
+                    <img src="../images/blog_sync.png" alt="PC sync project screenshot">
+                    <p>MARCH 21, 2025</p>
+                    <h2>Syncing Flutter Projects Across PCs</h2>
+                    <p>Learn how I used GitHub, VS Code Remote, and cloud storage to sync my Flutter dev setup between two machines seamlessly.</p>
+                    <a href="/Blog/sync-setup.html" class="blog-link">Click here to read more</a>
+                </div>
+
+                <div id="blog-3" class="blog-post" role="listitem">
+                    <img src="../images/blog_ai.png" alt="AI-generated Shorts project thumbnail">
+                    <p>MARCH 10, 2025</p>
+                    <h2>Fully Automated YouTube Shorts Using AI</h2>
+                    <p>From script to video: I automated a YouTube Shorts channel using AI story generation, video generation, and scheduling tools — all for free.</p>
+                    <a href="/Blog/youtube-ai.html" class="blog-link">Click here to read more</a>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <h1>My Learning Journal</h1>
+        <p>Copyright ©2025 Vishal</p>
+    </footer>
+
+    <script src="about.js" type="module"></script>
+</body>
+</html>

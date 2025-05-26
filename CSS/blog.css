@@ -1,0 +1,41 @@
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-post h2,
+.blog-post h3,
+.blog-post p {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-post p,
+.blog-post time {
+    margin: 12px 0;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.blog-link {
+    color: var(--color-text-light);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.blog-link:hover,
+.blog-link:focus {
+    color: var(--color-text);
+}
+
+/* Use shared blog-grid class from variables.css */
+#blog-grid {
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+}
