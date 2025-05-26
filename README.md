@@ -11,16 +11,8 @@ A modern, responsive blog website built with vanilla JavaScript, HTML5, and CSS3
 - **Modern CSS**: CSS Grid and Flexbox for robust layouts
 - **SEO Optimized**: Proper meta tags and semantic structure
 
-## 📱 Screenshots
-
-*Homepage Desktop View*
-![Homepage Desktop](./screenshots/homepage-desktop.png)
-
-*Homepage Mobile View*
-![Homepage Mobile](./screenshots/homepage-mobile.png)
-
-*Blog Post View*
-![Blog Post](./screenshots/blog-post.png)
+## 📱LIVE LINK
+https://vishalnarayan2809.github.io/responsive-blog/Homepage/index.html
 
 ## 🛠️ Tech Stack
 
