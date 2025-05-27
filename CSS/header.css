@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: var(--spacing-md);
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(255, 255, 255);
 }
 
 #logo {
