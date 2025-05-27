@@ -194,7 +194,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Vishal**
 - Learning Journey: Frontend Development Bootcamp Student
-- Focus: Responsive Web Design, Accessibility, Modern CSS
+- Focus: Responsive Web Design, Accessibility, Modern CSS , JS
 
 ## 🙏 Acknowledgments
 
